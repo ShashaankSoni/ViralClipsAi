@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Storage & Large Media Files
+storage/downloads/*
+!storage/downloads/.gitkeep
+storage/clips/*
+!storage/clips/.gitkeep
+storage/subtitles/*
+!storage/subtitles/.gitkeep
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+*.ass
+*.srt
+
+# FFmpeg binaries
+tools/ffmpeg/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+.yarn
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
